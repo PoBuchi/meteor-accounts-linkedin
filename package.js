@@ -1,0 +1,20 @@
+Package.describe({
+  summary: "Accounts service for LinkedIn accounts",
+  version: "1.0.0",
+  git: " \* Fill me in! *\ "
+});
+
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.1.1');
+
+  api.use('accounts-base@1.0.1', ['client', 'server']);
+  api.use('accounts-oauth@1.0.0', ['client', 'server']);
+  api.use('pauli:linkedin@1.0.0', ['client', 'server']);
+
+  api.addFiles(['linkedin_login_button.css'], 'client');
+  api.addFiles('linkedin_common.js', ['client', 'server']);
+  api.addFiles('linkedin_server.js', 'server');
+  api.addFiles('linkedin_client.js', 'client');
+});
+
+
