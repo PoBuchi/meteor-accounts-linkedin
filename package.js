@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Accounts service for LinkedIn accounts",
   version: "1.0.0",
-  git: " \* Fill me in! *\ "
+  git: "https://github.com/PauliBuccini/meteor-accounts-linkedin.git"
 });
 
 Package.onUse(function(api) {
