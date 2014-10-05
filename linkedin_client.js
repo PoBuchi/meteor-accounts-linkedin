@@ -13,3 +13,5 @@
     LinkedIn.requestCredential(options, credentialRequestCompleteCallback);
   };
 
+  // Make it work with 0.9.3
+  Meteor.loginWithLinkedin = Meteor.loginWithLinkedIn;
