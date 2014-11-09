@@ -5,7 +5,6 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.1.1');
 
   api.use('accounts-base@1.0.1', ['client', 'server']);
   api.use('accounts-oauth@1.0.0', ['client', 'server']);
