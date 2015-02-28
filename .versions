@@ -29,8 +29,8 @@ oauth@1.1.3
 oauth2@1.1.2
 observe-sequence@1.0.4
 ordered-dict@1.0.2
-pauli:accounts-linkedin@1.1.1
-pauli:linkedin@1.1.1
+jamesfirst:accounts-linkedin@1.1.2
+jamesfirst:linkedin@1.1.5
 random@1.0.2
 reactive-var@1.0.4
 reload@1.1.2
