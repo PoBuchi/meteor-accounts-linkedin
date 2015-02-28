@@ -1,6 +1,6 @@
 meteor-accounts-linkedin
 ============================
-Forked from https://github.com/yefim/meteor-accounts-linkedin.git
+Forked from https://github.com/PauliBuccini/meteor-accounts-linkedin
 
 A meteor package for LinkedIn's login service.
 
