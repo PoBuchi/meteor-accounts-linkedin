@@ -9,11 +9,11 @@ Package Dependencies
 
 * accounts-base
 * accounts-oauth
-* pauli:linkedin
+* jamesfirst:linkedin
 
 Install
 -----------
 ```
-meteor add pauli:accounts-linkedin
+meteor add jamesfirst:accounts-linkedin
 ```
 
