@@ -6,9 +6,11 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-   api.use('accounts-base', ['client', 'server']);
-  // Export Accounts (etc) to packages using this one.
+  api.versionsFrom('1.0.4')
+
+  api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base', ['client', 'server']);
+
   api.use('accounts-oauth', ['client', 'server']);
   api.use('pauli:linkedin@1.1.2', ['client', 'server']);
 
