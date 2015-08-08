@@ -7,6 +7,6 @@ Accounts.addAutopublishFields({
   // localhost). https://developer.linkedin.com/documents/authentication
   forLoggedInUser: ['services.linkedin'],
   forOtherUsers: [
-   'services.linkedin.id', 'services.linkedin.firstName', 'services.linkedin.lastName'
+   'services.linkedin.id', 'services.linkedin.firstName', 'services.linkedin.lastName', 'services.linkedin.pictureUrl'
   ]
 });
