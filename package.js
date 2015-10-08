@@ -15,9 +15,5 @@ Package.onUse(function(api) {
   api.use('pauli:linkedin@1.1.2', ['client', 'server']);
 
   api.addFiles(['linkedin_login_button.css'], 'client');
-  api.addFiles('linkedin_common.js', ['client', 'server']);
-  api.addFiles('linkedin_server.js', 'server');
-  api.addFiles('linkedin_client.js', 'client');
+  api.addFiles('linkedin.js', ['client', 'server']);
 });
-
-
