@@ -21,3 +21,14 @@ Package.onUse(function(api) {
 });
 
 
+Package.onTest(function(api) {
+  api.versionsFrom('1.0.4');
+  api.use('tinytest');
+  api.use('autopublish');
+  api.use('http', ['server']);
+  api.use('ryepdx:linkedin-fake@0.0.4');
+  api.use('pauli:accounts-linkedin');
+  
+  api.addFiles('linkedin_client_tests.js', 'client');
+  api.addFiles('linkedin_server_tests.js', 'server');
+});
