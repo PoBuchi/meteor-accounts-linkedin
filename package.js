@@ -17,7 +17,7 @@ Package.onUse(function(api) {
   api.imply('pauli:linkedin-oauth');
 
   // If users use accounts-ui but not facebook-config-ui, give them a tip.
-  api.use(['accounts-ui', 'pauli:linkedin-config-ui'], ['client', 'server'], { weak: true });
+  api.use(['accounts-ui', 'pauli:linkedin-config-ui@1.0.0'], ['client', 'server'], { weak: true });
   api.addFiles("notice.js");
 
   api.addFiles("linkedin.js");
