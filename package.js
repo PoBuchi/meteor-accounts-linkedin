@@ -1,7 +1,7 @@
 Package.describe({
   name: 'pauli:accounts-linkedin',
   summary: "Login service for LinkedIn accounts",
-  version: "2.0.0",
+  version: "2.1.1",
   git: "https://github.com/PoBuchi/meteor-accounts-linkedin.git"
 });
 
@@ -12,8 +12,9 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('pauli:linkedin-oauth@1.0.0', ['client', 'server']);
+  api.use('pauli:linkedin-oauth@1.1.0', ['client', 'server']);
 
+  api.use('pauli:linkedin-oauth');
   api.imply('pauli:linkedin-oauth');
 
   // If users use accounts-ui but not facebook-config-ui, give them a tip.
