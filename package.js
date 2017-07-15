@@ -1,7 +1,7 @@
 Package.describe({
   name: 'pauli:accounts-linkedin',
   summary: "Login service for LinkedIn accounts",
-  version: "2.1.2",
+  version: "2.1.3",
   git: "https://github.com/PoBuchi/meteor-accounts-linkedin.git"
 });
 
