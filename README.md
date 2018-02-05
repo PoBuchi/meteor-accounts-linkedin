@@ -8,6 +8,7 @@ Install
 ```
 meteor add pauli:accounts-linkedin
 ```
+From v3.0.0 works with Meteor@1.6.1 & up
 
 License
 -----------
