@@ -1,7 +1,7 @@
 Accounts.oauth.registerService('linkedin');
 
 if (Meteor.isClient) {
-  Meteor.loginWithLinkedIn = function(options, callback) {
+  Meteor.loginWithLinkedin = function(options, callback) {
     // support a callback without options
     if (! callback && typeof options === "function") {
       callback = options;
