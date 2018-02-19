@@ -48,9 +48,9 @@ oauth@1.2.1
 oauth2@1.2.0
 observe-sequence@1.0.16
 ordered-dict@1.1.0
-pauli:accounts-linkedin@3.0.0
-pauli:linkedin-config-ui@3.0.0
-pauli:linkedin-oauth@3.0.0
+pauli:accounts-linkedin@3.1.0
+pauli:linkedin-config-ui@3.1.0
+pauli:linkedin-oauth@3.1.0
 promise@0.10.1
 random@1.1.0
 rate-limit@1.0.8
