@@ -1,13 +1,13 @@
 Accounts.oauth.registerService('linkedin');
 
 if (Meteor.isClient) {
-  Meteor.loginWithLinkedin = function(options, callback) {
+  Meteor.loginWithLinkedIn = function(options, callback) {
     // support a callback without options
     if (! callback && typeof options === "function") {
       callback = options;
       options = null;
     }
-    var credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback);
+    const credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback);
     LinkedIn.requestCredential(options, credentialRequestCompleteCallback);
   };
 } else {
