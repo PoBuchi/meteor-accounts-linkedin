@@ -68,6 +68,10 @@ As basic Linkedin permission now only allows `r_emailaddress` and `r_liteprofile
 ```
 
 If you want during login process to ask for more fields, you need to pass requestPermissions to options.
+To change popup options: 
+```js
+popupOptions = { width: XXX, height: XXX }
+```
 
 More info [Linkedin API](https://docs.microsoft.com/en-us/linkedin/consumer/)
 
