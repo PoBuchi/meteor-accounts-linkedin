@@ -64,11 +64,12 @@ As basic Linkedin permission now only allows `r_emailaddress` and `r_liteprofile
       displayImage, // URN media handle
       identifiersUrl, // Array of links to all available identifiers
     },
-    email, // Array of all received emails during authentication
+    email, // First email from received emails during authentication
+    emails, // Array of all received emails during authentication
 ```
 
 If you want during login process to ask for more fields, you need to pass requestPermissions to options.
-To change popup options: 
+To change popup options:
 ```js
 popupOptions = { width: XXX, height: XXX }
 ```
