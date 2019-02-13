@@ -40,8 +40,8 @@ npm-mongo@3.1.1
 oauth@1.2.6
 oauth2@1.2.1
 ordered-dict@1.1.0
-pauli:accounts-linkedin@4.1.0
-pauli:linkedin-oauth@4.1.0
+pauli:accounts-linkedin@4.2.0
+pauli:linkedin-oauth@4.2.0
 promise@0.11.2
 random@1.1.0
 rate-limit@1.0.9
