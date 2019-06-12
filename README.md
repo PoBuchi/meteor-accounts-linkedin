@@ -4,7 +4,7 @@ meteor-accounts-linkedin
 A meteor package for LinkedIn's login service.
 
 ### Important
-BREAKING CHANGE LinkedIn -> Linkedin inside code
+BREAKING CHANGE LinkedIn -> Linkedin inside code frp, v5.0.0
 
 v4.0.0 works with Meteor@1.6.1 & up
 
