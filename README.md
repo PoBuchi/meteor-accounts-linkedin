@@ -4,6 +4,8 @@ meteor-accounts-linkedin
 A meteor package for LinkedIn's login service.
 
 ### Important
+BREAKING CHANGE LinkedIn -> Linkedin inside code
+
 v4.0.0 works with Meteor@1.6.1 & up
 
 From March 1, 2019 Linkedin will be using only V2 API [Docs](https://docs.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/migration-faq?context=linkedin/consumer/context)
@@ -21,7 +23,7 @@ Core principles are the same as native Meteor external services login, all avail
 
 For custom usage, available functions in **Client**:
 
-    login: ``Meteor.loginWithLinkedIn([options], [callback])``
+    login: ``Meteor.loginWithLinkedin([options], [callback])``
     credential request:``Meteor.requestCredential([options], [callback])``
 
 If you are not using any other external login service, you need to `metoer add service-configuration`, otherwise just config it in server folder:
